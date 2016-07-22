@@ -10,6 +10,8 @@
 		1168B9BF1D2E089000784841 /* Observable_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168B9BD1D2E089000784841 /* Observable_Operations.swift */; };
 		1168B9C01D2E089000784841 /* RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168B9BE1D2E089000784841 /* RxViewModel.swift */; };
 		1168B9C51D2E089600784841 /* RxViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1168B9C31D2E089600784841 /* RxViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2282F2E1D4248E3005B72DC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2282F2D1D4248E3005B72DC /* RxSwift.framework */; };
+		A2282F301D4248E9005B72DC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2282F2F1D4248E9005B72DC /* RxCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		1168B9BE1D2E089000784841 /* RxViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxViewModel.swift; sourceTree = "<group>"; };
 		1168B9C21D2E089600784841 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1168B9C31D2E089600784841 /* RxViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxViewModel.h; sourceTree = "<group>"; };
+		A2282F2D1D4248E3005B72DC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/iRealtor-dwqqjginotmklcdldibnikeawdcs/Build/Products/Debug-iphonesimulator/RxSwift.framework"; sourceTree = "<group>"; };
+		A2282F2F1D4248E9005B72DC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../RxSwift/build/Debug-iphoneos/RxCocoa.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2282F301D4248E9005B72DC /* RxCocoa.framework in Frameworks */,
+				A2282F2E1D4248E3005B72DC /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +43,7 @@
 				1168B9C11D2E089600784841 /* Supporting Files */,
 				1168B9BB1D2E089000784841 /* Source */,
 				1168B9B11D2E081800784841 /* Products */,
+				A2282F2C1D4248E3005B72DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +79,15 @@
 				1168B9C31D2E089600784841 /* RxViewModel.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2282F2C1D4248E3005B72DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2282F2F1D4248E9005B72DC /* RxCocoa.framework */,
+				A2282F2D1D4248E3005B72DC /* RxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
